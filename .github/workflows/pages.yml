@@ -31,7 +31,7 @@ jobs:
         run: npm run build  # Change to your build command
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: build  # Change this if your output folder is different
 
